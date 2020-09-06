@@ -1,11 +1,11 @@
-// @import "_reset.scss";
-body{
+body {
   border: 0;
   padding: 0;
   margin: 0;
   vertical-align: baseline;
 }
-fieldset{
+
+fieldset {
   border: 10px groove red;
   background: gold;
   color: green;
