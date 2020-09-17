@@ -1,0 +1,76 @@
+fieldset {
+  background: url("https://www.cosmographics.co.uk/images/products/world-satellite-map-childrens103.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
+  width: 80vw;
+  height: calc(100vh + 75px);
+  background: transparent;
+  background-image: url("https://dl.dropboxusercontent.com/s/r9da72u87ylgju3/a10TransPlan.png?dl=0");
+  opacity: 0.8;
+  background-position: 0 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: 50px auto;
+}
+
+.card {
+  display: none;
+  width: 500px;
+  height: 500px;
+  color: #fff;
+}
+
+.card2 {
+  display: none;
+  width: 500px;
+  height: 500px;
+  color: #fff;
+}
+
+.active {
+  position: absolute;
+  left: 600px;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background: url("https://image.shutterstock.com/image-photo/image-450w-190926368.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.active .gat-round {
+  width: 175px;
+  height: 150px;
+  background: url("https://i.pinimg.com/736x/77/f8/2d/77f82db3089d594b1351bde41879a9fc--big-guns-firearms.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.active .next {
+  width: 175px;
+  height: 150px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/TF_34_601010-F-0000H-039.jpg/300px-TF_34_601010-F-0000H-039.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.no-card {
+  display: none;
+}
