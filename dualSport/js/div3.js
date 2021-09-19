@@ -1,6 +1,6 @@
 // using prompts and alerts to mimic java scanner 
 // nodejs would be closer but this is just js for now
-
+//java code commented out below
 
 let div3range = (start, end) => {
   let counter = start;
@@ -23,21 +23,6 @@ while(true) {
     div3range(start, end);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* import java.util.Scanner;
